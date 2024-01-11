@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Wireframe Example</title>
+    <style>
+        /* Add custom styles for wireframe components */
+        body {
+            padding: 20px;
+        }
+        .wireframe-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="wireframe-box">
+                    <!-- Your wireframe content goes here -->
+                    <h1>Header</h1>
+                    <p>Main Content</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="wireframe-box">
+                    <!-- Another wireframe component -->
+                    <h2>Sidebar</h2>
+                    <ul>
+                        <li>Menu Item 1</li>
+                        <li>Menu Item 2</li>
+                        <li>Menu Item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
